@@ -12,6 +12,6 @@ class Person {
   private[chapter06] var age: Int = 18
 
   def printInfo(): Unit = {
-    println(s"Person: $idCard $name $sex $age")
+    println(s"p: $idCard $name $sex $age")
   }
 }
